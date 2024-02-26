@@ -26,7 +26,9 @@ void PrintArray(T arr[], int size);
 
 int main()
 {
-    
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+
     const int sizze = 20;
     int Array[sizze];
     FillArray(Array, sizze);
